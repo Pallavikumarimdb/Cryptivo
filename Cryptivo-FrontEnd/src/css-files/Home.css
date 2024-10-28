@@ -158,6 +158,8 @@ border-radius: 8px;
 
 .sec2-img{
   margin-left: 10%;
+  width: 60%;
+  height: 90% ; 
 }
 
 
@@ -214,6 +216,19 @@ border-radius: 8px;
     width: 40%;
     font-size: 25px;
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 800px){
+    .sec3-text{
+      color: #49525cd7;
+      padding-top: 50px;
+      margin-left: 10%;
+      padding-left: 50px;
+      padding-right: 0px;
+      width: 80%;
+      font-size: 25px;
+      font-weight: 700;
+    }
   }
 
 
