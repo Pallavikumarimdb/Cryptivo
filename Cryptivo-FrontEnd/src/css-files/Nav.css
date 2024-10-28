@@ -1,0 +1,198 @@
+.nav-1{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.nav-text{
+    color: #ffffff;
+    float: left;
+    margin: 0 10px;
+    /* margin-bottom: 100px; */
+}
+
+.nav-desc{
+    display: flex;
+}
+.nav-logo{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-logoanc{
+    /* height: 30px; */
+}
+
+.nav-desc-text{
+    font-weight: 600;
+    display: inline-block;
+    flex: 2;
+}
+
+.nav-button{
+    flex: 1;
+    /* float: right;     */
+    display: inline-block;
+}
+
+.nav-button1{
+    padding: 0.4em 1.2em;
+    color: #ffcf79;
+    float: right;
+
+    /* background:repeating-linear-gradient(45deg,red,blue);--w:40px;--b:2px;--r:40px; */
+    background-color: transparent;
+    --bw: 3px; /* border width */
+    --pc: 15%; /* percent corners */
+  
+    border: var(--bw) solid;
+    border-radius: var(--pc); /* delete for square corners or edit */
+  
+    clip-path: polygon(
+      0 0,
+      var(--pc) 0,
+      var(--pc) var(--bw),
+      calc(100% - var(--pc)) var(--bw),
+      calc(100% - var(--pc)) 0,
+      100% 0,
+      100% var(--pc),
+      calc(100% - var(--bw)) var(--pc),
+      calc(100% - var(--bw)) calc(100% - var(--pc)),
+      100% calc(100% - var(--pc)),
+      100% 100%,
+      calc(100% - var(--pc)) 100%,
+      calc(100% - var(--pc)) calc(100% - var(--bw)),
+      var(--pc) calc(100% - var(--bw)),
+      var(--pc) 100%,
+      0 100%,
+      0 calc(100% - var(--pc)),
+      var(--bw) calc(100% - var(--pc)),
+      var(--bw) var(--pc),
+      0 var(--pc)
+    );
+
+
+}
+
+
+@media screen and (max-width: 900px){
+    .nav-1{
+        margin-left: 0px;
+    }
+    #root{
+        margin: 0;
+    }
+
+}
+
+
+
+/* header */
+
+.header {
+    
+    z-index: 3;
+  }
+  
+  .header ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 15px 10px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #f3f2f2;
+    display: block;
+    height: 3px;
+    position: relative;
+    line-height: 5px;
+    transition: background .2s ease-out;
+    width: 25px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #fff8f8;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 440px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 800px) {
+        .header li {
+            display: block;
+        float: left;
+        }
+    .header li a {
+      /* padding: 20px 30px; */
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
