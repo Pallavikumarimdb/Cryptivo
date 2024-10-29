@@ -1,16 +1,30 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './components/Home.jsx'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import  Home  from './components/Home.jsx'
+import HowItWoorks from './components/SubComponents/HowItWorks.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Home/>
+      {/* <Home/> */}
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/HowItWorks" element={<HowItWoorks />} />
+        </Routes>
+      </BrowserRouter>
 
 
+      </>
+  )
+}
 
+export default App
 
 
 
@@ -72,8 +86,3 @@ function App() {
     </button>
   </div>
 </nav> */}
-      </>
-  )
-}
-
-export default App

@@ -4,10 +4,12 @@
 @tailwind utilities;
 
 html{
-    background-color: #5f7894                                                                                                                           
+  
+    /* background-color: #5f7894  ;                                                                                                                         */
 }
 
 .Header-1{
+  background-color: #5f7894;
     margin: 0;
     padding: 0;
     /* height: 600px; */

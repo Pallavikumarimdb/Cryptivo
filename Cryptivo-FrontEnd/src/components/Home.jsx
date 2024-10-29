@@ -2,6 +2,7 @@ import React from 'react';
 import '../css-files/Home.css';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
+
 import imghead from '../assets/img.png';
 import img2 from '../assets/img3.1.png';
 import arrowdown from '../assets/arrowdown.png';
@@ -10,8 +11,9 @@ import img3 from '../assets/img6.1.png';
 function Home() {
     return (
         <>
-            <Nav />
+            {/* <Nav /> */}
             <div className='Header-1'>
+            <Nav />
                 <div className='home-1 grid grid-cols-1 sm:grid-cols-1  lg:grid-cols-2'>
 
                     <div className='home-flex1'>

@@ -1,0 +1,47 @@
+.HowItWoorks{
+    background-color: #597b86;
+}
+
+.HowItWoorks-1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-top: 120px;
+    padding-bottom: 60px;
+}
+
+
+.HowItWoorks-flex1{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 175px;
+}
+
+.HowItWoorks-flex1-text-1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fed174;
+}
+
+.HowItWoorks-flex1-text-2{
+    color: white;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.HowItWoorks-flex1-but-2{
+    color: #fed174;
+    background: none;
+    border-width: 2px;
+    border-color: #fed174;
+}
+
+.HowItWoorks-flex2-img{
+    width: 70%;
+    height: 60%;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
