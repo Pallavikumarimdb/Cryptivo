@@ -10,7 +10,7 @@ import img3 from '../assets/img6.1.png';
 
 function Home() {
     return (
-        <>
+        <div className='home'>
             {/* <Nav /> */}
             <div className='Header-1'>
             <Nav />
@@ -119,7 +119,7 @@ function Home() {
 
             </div>
             <Footer/>
-        </>
+        </div>
     )
 }
 
