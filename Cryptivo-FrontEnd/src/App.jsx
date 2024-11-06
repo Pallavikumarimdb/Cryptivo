@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import  Home  from './components/Home.jsx'
 import HowItWoorks from './components/SubComponents/HowItWorks.jsx'
+import HowToUse from './components/SubComponents/HowToUse.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/HowItWorks" element={<HowItWoorks />} />
+          <Route path="/HowToUse" element={<HowToUse />} />
         </Routes>
       </BrowserRouter>
 

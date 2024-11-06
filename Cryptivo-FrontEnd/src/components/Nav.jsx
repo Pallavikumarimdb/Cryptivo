@@ -14,7 +14,7 @@ function Nav() {
                     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                     <ul className="menu nav-desc-text">
                       <li><NavLink to="/HowItWorks" className=" nav-text" aria-current="page">How it works</NavLink></li>
-                      <li><NavLink to="#" className=" nav-text" aria-current="page">How to use</NavLink></li>
+                      <li><NavLink to="/HowToUse" className=" nav-text" aria-current="page">How to use</NavLink></li>
                       <li><NavLink to="#" className=" nav-text" aria-current="page">Blog</NavLink></li>
                       <li><NavLink to="#" className=" nav-text" aria-current="page">About us</NavLink></li>
                       <li><NavLink to="#" className=" nav-text" aria-current="page">Contact</NavLink></li>

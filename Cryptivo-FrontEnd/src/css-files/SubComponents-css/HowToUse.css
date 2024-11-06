@@ -1,0 +1,230 @@
+.howUse{
+    background-color: #597b86;
+}
+
+
+.howToUses{
+    background-color: #597b86;
+}
+
+.howToUses-1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-top: 120px;
+    /* padding-bottom: 60px; */
+}
+
+.howToUses-flex{
+    margin-top: 50px;
+}
+
+.howToUses-flex1{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.howToUses-flex1-text-1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fed174;
+}
+
+.howToUses-flex1-text-2{
+    color: white;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.howToUses-flex1-but-2{
+    color: #fed174;
+    background: none;
+    border-width: 2px;
+    border-color: #fed174;
+}
+
+
+
+
+
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .step-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background-color: #e0e0e0; /* Light gray background color for the circle */
+    color: #4f4f4f; /* Darker color for the number */
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 8px; /* Spacing between circle and label */
+  }
+  
+  .step-label {
+    font-size: 16px; /* Adjust size as needed */
+  }
+  
+
+
+  .line1 {
+    border-radius:100px 0 0 0 ;
+    border-width: 2px 0 0 2px;
+    margin-left:100px;
+    }
+  
+  .line2 {
+  
+    border-radius:0 0 100px 0 ;
+  
+    border-width: 0 2px  2px 0 ;
+  
+    }
+    .line {
+        border-color:red;
+    border-style: solid;
+      height:100px;
+    width: 100px;
+    }
+
+
+
+
+
+.howToUses-flex2-img{
+    width: 70%;
+    height: 70%;
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+.curveline{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* ............................................................................................. */
+
+
+
+.howToUses-flexmain2{
+    background-color: #597b86;
+    text-align: left;
+    padding-left: 100px;
+    /* padding-bottom: 175px; */
+}
+
+.howToUses-sec2-flex2-img{
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+
+/* .HowItWoorks-sec2-flex1-text-1{
+    margin-left: 10px;
+    margin-top: 100px;
+
+} */
+
+.howToUses-sec2-flex2{
+    width: 70%;
+}
+
+.sec-cir{
+    margin-top: 50px;
+}
+
+.howToUses-sec2-flex1-text-1{
+    /* margin-top: 50px; */
+    font-size: 38px;
+    font-weight: 700;
+    color: #fed174;
+}
+
+.howToUses-sec2-flex1-text-2{
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.howToUses-sec2-flex1-but-2{
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-right: 40px;
+    font-weight: 700;
+    background-color: #feca69;;
+}
+
+/* .footer{
+    background-color: #597b86;
+    text-align: left;
+} */
+
+/* .............................................................. */
+
+
+.howUse-img-1{
+    margin-left: 50px;
+    /* transform: rotate(0deg);  */
+    width: 50%;
+    height: 90%;
+
+}
+.line-2-sec{
+    height: 200px;
+}
+
+.line-1-sec{
+    height: 140px;
+}
+
+.howToUses-flex3-but-2{
+    font-weight: 700;
+    background-color: #feca69;
+}
+
+
+.howUse-vid-1{
+    border-radius: 50%;
+}
+
+.last-grod{
+    margin-bottom: 100px;
+}
+.line-3-sec{
+    width: 80%;
+    height: 100px;
+}
+
+.App{
+    margin-top: 200px;
+    margin-bottom: 150px;
+
+}
+
+.Accordion-head{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
